@@ -17,7 +17,7 @@
     <main>
 
 <!-- Title -->
-      <div class="container w-75">
+      <div class="container">
         <h1 class="mt-5">GOSH - A history (⚙️ in the making…)</h1>
         <small class="text-muted">by <a target="_blank" href="https://julieta.aranc.io" target="_blank">@cassandreces</a> - February 2020</p></small>
       <!-- </div> -->
@@ -39,7 +39,7 @@
 
           <p>
             <i>Notes:<br>
-            - Hover over <span id="highlighted" style="background-color:#DF01A5;color:white;font-weight:bold;" title="Look at me" data-content="I'm a comment.">highlighted</span> text to show comments<br>
+            - Hover over <span class="equity" style="background-color:#DF01A5;color:white;font-weight:bold;" data-content="I'm a comment.">highlighted</span> text to show comments<br>
             - Timeline keeps growing, come back for updates!</i>
           </p>
         </div>
@@ -55,7 +55,7 @@
 
           <p>We are about to tell a story of people creating tools with other people. About knowledge(s), curiosity, questioning and sharing ideas, nurtured by the stories of those who are part of this collective. Its full name is <i>Global Open Science Hardware movement</i>, but since it is very long we affectionately call it <strong>GOSH</strong>. </p>
 
-          <p>Those of <span id="goshers" style="background-color:#DF01A5;color:white;font-weight:bold;" title="Comm" data-content="From now on, GOSHers">us</span> who identify as part of GOSH are a diverse group of people using different kinds of tools to produce knowledge. Whether within universities or schools, working in civil associations, ateliers or in our communities, we think that different and necessary things happen when the designs of the tools that produce knowledge are freely shared. To learn more about this you can check our <a href="http://openhardware.science/gosh-manifesto/">manifesto</a> and the article <a href="http://openhardware.science/about/why-gosh/">Why gosh?</a>.</p>
+          <p>Those of <span class="equity" style="background-color:#DF01A5;color:white;font-weight:bold;" data-content="From now on, GOSHers">us</span> who identify as part of GOSH are a diverse group of people using different kinds of tools to produce knowledge. Whether within universities or schools, working in civil associations, ateliers or in our communities, we think that different and necessary things happen when the designs of the tools that produce knowledge are freely shared. To learn more about this you can check our <a href="http://openhardware.science/gosh-manifesto/">manifesto</a> and the article <a href="http://openhardware.science/about/why-gosh/">Why gosh?</a>.</p>
 
           <p>After four years of getting to know each other and a lot of work together, and after setting as our goal that open science hardware is ubiquitous by 2025, we understand it is a good moment to reflect on how we got here. </p>
 
@@ -226,7 +226,7 @@
 
         <p>The organizing team incorporated Fernan Federici (<a target="_blank" href="https://federicilab.org/">Federici Lab, Universidad Católica de Chile</a>) and Max Liboiron (<a target="_blank" href="https://civiclaboratory.nl/">CLEAR</a>, <a target="_blank" href="https://www.mun.ca/">Memorial University</a>), after her key participation in 2016. A hundred participants from 30 countries were selected under strict demographic criteria, based on the concept of
 
-            <span id="equity" style="background-color:#DF01A5;color:white;font-weight:bold;" title="From Code of Conduct:" data-content="Equity recognizes that everyone does not start from the same position, so treating everyone the same may leave them in the same uneven positions they began in.">equity</span>
+            <span class="equity" style="background-color:#DF01A5;color:white;font-weight:bold;"  data-content="Equity recognizes that everyone does not start from the same position, so treating everyone the same may leave them in the same uneven positions they began in.">equity</span>
 
         equity for building the community. The code of conduct was put in place and people were designated to implement it during the event.</p>
       </div>
@@ -529,7 +529,7 @@
   </main>
   <script>
     $(document).ready(function(){
-      $('#equity').popover({title: "Header", content: "Blabla", trigger: "hover"});
+      $('equity').popover({content: "Blabla", trigger: "hover"});
     });
   </script>
 
