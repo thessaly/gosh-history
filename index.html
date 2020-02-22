@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Load pop-up comments -->
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+
     <title>GOSH - A history in the making</title>
   </head>
   <body>
@@ -129,7 +135,7 @@
               <p>Several emails later, and after meeting at Tech4Dev 2014 and <a href="http://hackuarium.ch">Hackuarium</a> (Lausanne) for a water hackathon organized by Hackteria, the first GOSH organizing team was defined.</p>
 
               <!-- embedded video-->
-              <figure class="my-5 text-center embed-responsive embed-responsive-16by9">
+              <figure class="my-5 text-center embed-responsive embed-responsive-4by3">
                 <iframe class="embed-responsive-item"width="560" height="315" src="https://www.youtube.com/embed/b1uqvNh7-SQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <figcaption class="figure-caption text-center">WaterHackathon at Hackuarium - Lausanne, 2014 (source: <a href="https://www.youtube.com/user/MrGaudiCH">GaudiLabs</a>)</figcaption>
               </figure>
@@ -503,12 +509,5 @@
         </div>
       </div>
     </main>
-
-    <!-- Load pop-up comments -->
-    <script>
-      $(document).ready(function(){
-        $('equity').popover({content: "Blabla", trigger: "hover"});
-      });
-    </script>
   </body>
 </html>
