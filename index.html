@@ -11,9 +11,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- Load pop-up comments -->
     <script>
-      $(function () {
-        $('[data-toggle="popover"]').popover()
-      })
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
     </script>
 
     <title>GOSH - A history in the making</title>
@@ -37,7 +37,7 @@
 
               <!-- Notes -->
               <p><i>Notes:<br>
-                - Hover over <span class="equity" style="background-color:#DF01A5;color:white;font-weight:bold;" data-content="I'm a comment.">highlighted</span> text to show comments<br>
+                - Hover over <span style="background-color:#DF01A5;color:white;font-weight:bold;" data-toggle="tooltip" title="A comment">highlighted</span> text to show comments<br>
                 - Timeline keeps growing, come back for updates!</i>
               </p>
             </header>
@@ -64,7 +64,7 @@
               <h3 class="py-3">🔥 Welcome!</h3>
               <p>We are about to tell a story of people creating tools with other people. About knowledge(s), curiosity, questioning and sharing ideas, nurtured by the stories of those who are part of this collective. Its full name is <i>Global Open Science Hardware movement</i>, but since it is very long we affectionately call it <strong>GOSH</strong>.</p>
 
-              <p>Those of <span class="equity" style="background-color:#DF01A5;color:white;font-weight:bold;" data-content="From now on, GOSHers">us</span> who identify as part of GOSH are a diverse group of people using different kinds of tools to produce knowledge. Whether within universities or schools, working in civil associations, ateliers or in our communities, we think that different and necessary things happen when the designs of the tools that produce knowledge are freely shared. To learn more about this you can check our <a href="http://openhardware.science/gosh-manifesto/">manifesto</a> and the article <a href="http://openhardware.science/about/why-gosh/">Why gosh?</a>.</p>
+              <p>Those of <span style="background-color:#DF01A5;color:white;font-weight:bold;" data-toggle="tooltip" title="From now on, 'GOSHers'">us who identify with GOSH values</span> are a diverse group of people using different kinds of tools to produce knowledge. Whether within universities or schools, working in civil associations, ateliers or in our communities, we think that different and necessary things happen when the designs of the tools that produce knowledge are freely shared. To learn more about this you can check our <a href="http://openhardware.science/gosh-manifesto/">manifesto</a> and the article <a href="http://openhardware.science/about/why-gosh/">Why gosh?</a>.</p>
 
               <p>After four years of getting to know each other and a lot of work together, and after setting as our goal that open science hardware is ubiquitous by 2025, we understand it is a good moment to reflect on how we got here. </p>
 
@@ -147,7 +147,7 @@
               <p>In 2015 preparations began for <a target="_blank" href="http://openhardware.science/gatherings/gosh-2016/">GOSH first gathering</a> in 2016 at <a target="_blank" href="https://ideasquare.cern/">CERN Idea Square</a>. And although some last-minute bureaucratic problems almost threaten it, it was a success, gathering an active group interested in working together.</p>
 
               <p>A total of 54 people came together that March, mainly from Europe and the US: educators, scientists, entrepreneurs, community organizers. The four days of the program included keynotes by Sean Bonner (<a href="https://safecast.org/">SafeCast project</a>), Denisa Kera (<a href="https://usal.academia.edu/DenisaKera">philosopher and designer</a>), Kickstarter crowdfunding experts, unconference sessions, workshops and presentations by local artists convened by Marc Dusseiller plus artists from the program   <a href="https://arts.cern/">Arts@CERN</a>.</p>
-              
+
               <!-- photos section 2-->
               <figure class="my-5">
                 <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -218,7 +218,7 @@
 
                 <p>The organizing team incorporated Fernan Federici (<a target="_blank" href="https://federicilab.org/">Federici Lab, Universidad Católica de Chile</a>) and Max Liboiron (<a target="_blank" href="https://civiclaboratory.nl/">CLEAR</a>, <a target="_blank" href="https://www.mun.ca/">Memorial University</a>), after her key participation in 2016. A hundred participants from 30 countries were selected under strict demographic criteria, based on the concept of
 
-                    <span class="equity" style="background-color:#DF01A5;color:white;font-weight:bold;"  data-content="Equity recognizes that everyone does not start from the same position, so treating everyone the same may leave them in the same uneven positions they began in.">equity</span>
+                    <span style="background-color:#DF01A5;color:white;font-weight:bold;" data-toggle="tooltip" title="Equity recognizes that everyone does not start from the same position, so treating everyone the same may leave them in the same uneven positions they began in.">equity</span>
 
                 equity for building the community. The code of conduct was put in place and people were designated to implement it during the event.</p>
 
@@ -394,7 +394,7 @@
               <!-- Ananda's drawings -->
               <figure class="my-5 text-center">
                   <a href="img/GOSH2.jpg"><img class="img-thumbnail" src="img/GOSH2-thumbnail.jpg" alt="ananda's drawings day 2"></a>
-                  <figcaption class="figure-caption text-center">Summary of day 2, by <a href="#">Ananda Gabo</a> (click to enlarge!)</figcaption>
+                  <figcaption class="figure-caption text-center">Summary of day 2, by <a href="https://twitter.com/trash_humanism">Ananda Gabo</a> (click to enlarge!)</figcaption>
               </figure>
 
               <p>The public event was organized in <a target="_blank" href="https://www.xfactory.io/">X-Factory</a> - a public-private space for prototyping and batch production - where community projects were presented and an art-science exhibition was held. Almost a tradition, pre and post gathering some GOSHers dedicated time to collaborative work and to visit emblematic local spaces such as the <a target="_blank" href="https://medium.com/chinafacture/huaqiangbei-the-biggest-electronics-market-in-the-world-shenzhen-china-3ec66e5d2df0">Huaqiangbei hardware market</a>.</p>
